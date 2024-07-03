@@ -7,7 +7,6 @@ class Controller:
         self._view = view
         # the model, which implements the logic of the program and holds the data
         self._model = model
-
     def handleAnalizza(self,e):
         self._view._txt_result.controls.clear()
         miglia = self._view._txtIn.value

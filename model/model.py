@@ -6,7 +6,6 @@ class Model:
         self._idMap = {}
         for a in self._aeroporti:
             self._idMap[a.ID]=a
-        _
 
     def addEdge(self,miglia):
         self._grafo.clear()
