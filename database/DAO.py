@@ -5,6 +5,7 @@ class DAO():
     def __init__(self):
         pass
 
+
     @staticmethod
     def getAllAeroporti():
         conn = DBConnect.get_connection()

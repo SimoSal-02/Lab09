@@ -6,6 +6,7 @@ class View(ft.UserControl):
         super().__init__()
         # page stuff
 
+
         self._page = page
         self._page.title = "TdP Lab 09"
         self._page.horizontal_alignment = 'CENTER'

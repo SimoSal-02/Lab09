@@ -12,6 +12,7 @@ class Controller:
         self._view._txt_result.controls.clear()
         miglia = self._view._txtIn.value
 
+
         try:
             nMiglia = float(miglia)
         except ValueError:
